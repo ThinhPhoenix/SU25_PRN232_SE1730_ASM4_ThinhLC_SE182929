@@ -1,14 +1,14 @@
 {
   "ExtendedData": {
     "inputs": [
-      "https://localhost:7077/SampleThinhLCSoapService.asmx"
+      "https://localhost:7077/SampleTypeThinhLCSoapService.asmx"
     ],
     "collectionTypes": [
       "System.Array",
       "System.Collections.Generic.Dictionary`2"
     ],
     "namespaceMappings": [
-      "*, SampleThinhLCSoapWCFServiceReference"
+      "*, SampleTypeThinhLCSoapWCFServiceReference"
     ],
     "references": [
       "Microsoft.Extensions.ObjectPool, {Microsoft.Extensions.ObjectPool, 8.0.10}",

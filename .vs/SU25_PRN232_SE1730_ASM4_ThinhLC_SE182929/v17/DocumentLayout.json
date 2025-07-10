@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{98BC5FC4-5D16-4D17-A2BF-EB5FABEA0A42}|DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC.csproj|solutionrelative:dnatestingsystem.soapclients.consoleapp.thinhlc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98BC5FC4-5D16-4D17-A2BF-EB5FABEA0A42}|DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC.csproj|c:\\users\\thinhphoenix\\documents\\fptu\\prn232\\su25_prn232_se1730_asm4_thinhlc_se182929\\dnatestingsystem.soapclients.consoleapp.thinhlc\\connected services\\samplethinhlcsoapwcfservicereference\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{98BC5FC4-5D16-4D17-A2BF-EB5FABEA0A42}|DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC.csproj|solutionrelative:dnatestingsystem.soapclients.consoleapp.thinhlc\\connected services\\samplethinhlcsoapwcfservicereference\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97C9F5E1-353D-443D-8B45-0B585C0DA453}|DNATestingSystem.SoapAPIServices.ThinhLC\\DNATestingSystem.SoapAPIServices.ThinhLC.csproj|c:\\users\\thinhphoenix\\documents\\fptu\\prn232\\su25_prn232_se1730_asm4_thinhlc_se182929\\dnatestingsystem.soapapiservices.thinhlc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97C9F5E1-353D-443D-8B45-0B585C0DA453}|DNATestingSystem.SoapAPIServices.ThinhLC\\DNATestingSystem.SoapAPIServices.ThinhLC.csproj|solutionrelative:dnatestingsystem.soapapiservices.thinhlc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BC5FC4-5D16-4D17-A2BF-EB5FABEA0A42}|DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC.csproj|c:\\users\\thinhphoenix\\documents\\fptu\\prn232\\su25_prn232_se1730_asm4_thinhlc_se182929\\dnatestingsystem.soapclients.consoleapp.thinhlc\\connected services\\samplethinhlcsoapwcfservicereference\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BC5FC4-5D16-4D17-A2BF-EB5FABEA0A42}|DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC.csproj|solutionrelative:dnatestingsystem.soapclients.consoleapp.thinhlc\\connected services\\samplethinhlcsoapwcfservicereference\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97C9F5E1-353D-443D-8B45-0B585C0DA453}|DNATestingSystem.SoapAPIServices.ThinhLC\\DNATestingSystem.SoapAPIServices.ThinhLC.csproj|c:\\users\\thinhphoenix\\documents\\fptu\\prn232\\su25_prn232_se1730_asm4_thinhlc_se182929\\dnatestingsystem.soapapiservices.thinhlc\\soapservices\\samplethinhlcsoapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,15 +106,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnectedService.json",
-              "DocumentMoniker": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\ConnectedService.json",
-              "RelativeDocumentMoniker": "DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\ConnectedService.json",
-              "ToolTip": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\ConnectedService.json",
-              "RelativeToolTip": "DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\ConnectedService.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T04:52:35.488Z",
+              "DocumentIndex": 2,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\Reference.cs",
+              "RelativeDocumentMoniker": "DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\Reference.cs",
+              "ToolTip": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\Reference.cs",
+              "RelativeToolTip": "DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Connected Services\\SampleThinhLCSoapWCFServiceReference\\Reference.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:31:07.535Z",
               "EditorCaption": ""
             },
             {
@@ -125,20 +125,20 @@
               "RelativeDocumentMoniker": "DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Program.cs",
               "ToolTip": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Program.cs",
               "RelativeToolTip": "DNATestingSystem.SoapClients.ConsoleApp.ThinhLC\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAKIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T04:44:03.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapAPIServices.ThinhLC\\Program.cs",
               "RelativeDocumentMoniker": "DNATestingSystem.SoapAPIServices.ThinhLC\\Program.cs",
               "ToolTip": "C:\\Users\\ThinhPhoenix\\Documents\\FPTU\\PRN232\\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\\DNATestingSystem.SoapAPIServices.ThinhLC\\Program.cs",
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T04:02:26.942Z",
               "EditorCaption": ""
@@ -153,8 +153,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapServices\\SampleThinhLCSoapService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwBoAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:54:25.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:54:25.737Z"
             },
             {
               "$type": "Document",
@@ -166,8 +165,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\TransactionsGiapHd.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:39:12.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:39:12.205Z"
             },
             {
               "$type": "Document",
@@ -179,8 +177,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\ServicesNhanVt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:39:05.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:39:05.62Z"
             },
             {
               "$type": "Document",
@@ -192,8 +189,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\ServiceCategoriesNhanVt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:39:01.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:39:01.441Z"
             },
             {
               "$type": "Document",
@@ -205,8 +201,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\SampleTypeThinhLc.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA+wBkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:58.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:58.409Z"
             },
             {
               "$type": "Document",
@@ -218,8 +213,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\SampleThinhLc.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAUwCIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:53.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:53.11Z"
             },
             {
               "$type": "Document",
@@ -231,8 +225,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\AppointmentsTienDm.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAkwCwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:07.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:07.984Z"
             },
             {
               "$type": "Document",
@@ -244,8 +237,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\SystemUserAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:39:08.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:39:08.991Z"
             },
             {
               "$type": "Document",
@@ -257,8 +249,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\ProfileThinhLc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:48.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:48.309Z"
             },
             {
               "$type": "Document",
@@ -283,8 +274,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\OrderGiapHd.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:35.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:35.311Z"
             },
             {
               "$type": "Document",
@@ -296,8 +286,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\LocusMatchResultsPhienNt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:31.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:31.868Z"
             },
             {
               "$type": "Document",
@@ -309,8 +298,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\LociPhienNt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:28.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:28.359Z"
             },
             {
               "$type": "Document",
@@ -322,8 +310,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\DnaTestsPhienNt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:24.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:24.584Z"
             },
             {
               "$type": "Document",
@@ -335,8 +322,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\BlogsHuyLhg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:18.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:18.207Z"
             },
             {
               "$type": "Document",
@@ -348,8 +334,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\BlogCategoriesHuyLhg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:38:12.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:38:12.176Z"
             },
             {
               "$type": "Document",
@@ -361,8 +346,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\AppointmentStatusesTienDm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:37:56.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:37:56.77Z"
             },
             {
               "$type": "Document",
@@ -374,8 +358,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\AlleleResultsPhienNt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:37:53.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:37:53.602Z"
             },
             {
               "$type": "Document",
@@ -387,8 +370,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\SoapModels\\Class.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:37:48.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:37:48.249Z"
             },
             {
               "$type": "Document",
@@ -400,8 +382,7 @@
               "RelativeToolTip": "DNATestingSystem.SoapAPIServices.ThinhLC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T03:36:03.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T03:36:03.084Z"
             }
           ]
         }

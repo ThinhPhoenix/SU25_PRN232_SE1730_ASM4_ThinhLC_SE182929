@@ -52,7 +52,7 @@
         "properties": {
           "date": {
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "temperatureC": {
             "type": "integer",

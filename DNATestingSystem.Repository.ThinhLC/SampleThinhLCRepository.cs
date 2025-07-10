@@ -118,5 +118,22 @@ namespace DNATestingSystem.Repository.ThinhLC
             };
             return result;
         }
+
+        public async Task<int> UpdateAsync(SampleThinhLc sample)
+        {
+            var existing = await _context.SampleThinhLcs.FindAsync(sample.SampleThinhLcid);
+            if (existing == null) return -1;
+            existing.ProfileThinhLcid = sample.ProfileThinhLcid;
+            existing.SampleTypeThinhLcid = sample.SampleTypeThinhLcid;
+            existing.AppointmentsTienDmid = sample.AppointmentsTienDmid;
+            existing.Notes = sample.Notes;
+            existing.IsProcessed = sample.IsProcessed;
+            existing.Count = sample.Count;
+            existing.CollectedAt = sample.CollectedAt;
+            existing.CreatedAt = sample.CreatedAt;
+            existing.UpdatedAt = DateTime.Now;
+            existing.DeletedAt = sample.DeletedAt;
+            return await _context.SaveChangesAsync();
+        }
     }
 }

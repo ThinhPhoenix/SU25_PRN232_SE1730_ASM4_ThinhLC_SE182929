@@ -13,9 +13,9 @@ public partial class AppointmentsTienDm
 
     public int AppointmentStatusesTienDmid { get; set; }
 
-    public DateOnly AppointmentDate { get; set; }
+    public DateTime AppointmentDate { get; set; }
 
-    public TimeOnly AppointmentTime { get; set; }
+    public TimeSpan AppointmentTime { get; set; }
 
     public string SamplingMethod { get; set; } = null!;
 

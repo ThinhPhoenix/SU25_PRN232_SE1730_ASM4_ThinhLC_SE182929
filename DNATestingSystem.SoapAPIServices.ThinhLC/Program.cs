@@ -12,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IServiceProviders, ServiceProviders>();
 builder.Services.AddScoped<ISampleThinhLCSoapService, SampleThinhLCSoapService>();
+builder.Services.AddScoped<ISampleTypeThinhLCService, SampleTypeThinhLCService>();
+builder.Services.AddScoped<ISampleTypeThinhLCSoapService, SampleTypeThinhLCSoapService>();
 
 var app = builder.Build();
 
@@ -23,6 +25,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseSoapEndpoint<ISampleThinhLCSoapService>("/SampleThinhLCSoapService.asmx", new SoapEncoderOptions());
+app.UseSoapEndpoint<ISampleTypeThinhLCSoapService>("/SampleTypeThinhLCSoapService.asmx", new SoapEncoderOptions());
 
 app.UseHttpsRedirection();
 

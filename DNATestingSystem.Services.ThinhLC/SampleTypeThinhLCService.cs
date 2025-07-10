@@ -18,22 +18,18 @@ namespace DNATestingSystem.Services.ThinhLC
         {
             return await _repository.GetAllAsync();
         }
-
         public async Task<SampleTypeThinhLc> GetByIdAsync(int id)
         {
             return await _repository.GetByIdAsync(id);
         }
-
         public async Task<int> CreateAsync(SampleTypeThinhLc sampleType)
         {
             return await _repository.CreateAsync(sampleType);
         }
-
         public async Task<int> UpdateAsync(SampleTypeThinhLc sampleType)
         {
             return await _repository.UpdateAsync(sampleType);
         }
-
         public async Task<bool> RemoveAsync(int id)
         {
             var sampleType = await _repository.GetByIdAsync(id);

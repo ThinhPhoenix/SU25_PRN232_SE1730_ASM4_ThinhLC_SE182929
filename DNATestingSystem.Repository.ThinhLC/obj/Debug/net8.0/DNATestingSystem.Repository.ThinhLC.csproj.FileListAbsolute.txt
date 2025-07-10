@@ -55,17 +55,3 @@ C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM3_ThinhLC_SE18
 C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM3_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.pdb
 C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM3_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.genruntimeconfig.cache
 C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM3_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\ref\DNATestingSystem.Repository.ThinhLC.dll
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\bin\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.deps.json
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\bin\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.runtimeconfig.json
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\bin\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.dll
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\bin\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.pdb
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.csproj.AssemblyReference.cache
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.AssemblyInfoInputs.cache
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.AssemblyInfo.cs
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.csproj.CoreCompileInputs.cache
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.dll
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\refint\DNATestingSystem.Repository.ThinhLC.dll
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.pdb
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\DNATestingSystem.Repository.ThinhLC.genruntimeconfig.cache
-C:\Users\ThinhPhoenix\Documents\FPTU\PRN232\SU25_PRN232_SE1730_ASM4_ThinhLC_SE182929\DNATestingSystem.Repository.ThinhLC\obj\Debug\net8.0\ref\DNATestingSystem.Repository.ThinhLC.dll

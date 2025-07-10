@@ -7,19 +7,162 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SampleThinhLCSoapWCFServiceReference
+namespace SampleTypeThinhLCSoapWCFServiceReference
 {
     using System.Runtime.Serialization;
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SampleThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SampleTypeThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
+    public partial class SampleTypeThinhLc : object
+    {
+        
+        private System.Nullable<int> CountField;
+        
+        private System.Nullable<System.DateTime> CreatedAtField;
+        
+        private System.Nullable<System.DateTime> DeletedAtField;
+        
+        private string DescriptionField;
+        
+        private System.Nullable<bool> IsActiveField;
+        
+        private SampleTypeThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcsField;
+        
+        private System.Nullable<int> SampleTypeThinhLcidField;
+        
+        private string TypeNameField;
+        
+        private System.Nullable<System.DateTime> UpdatedAtField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Count
+        {
+            get
+            {
+                return this.CountField;
+            }
+            set
+            {
+                this.CountField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> CreatedAt
+        {
+            get
+            {
+                return this.CreatedAtField;
+            }
+            set
+            {
+                this.CreatedAtField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> DeletedAt
+        {
+            get
+            {
+                return this.DeletedAtField;
+            }
+            set
+            {
+                this.DeletedAtField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description
+        {
+            get
+            {
+                return this.DescriptionField;
+            }
+            set
+            {
+                this.DescriptionField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<bool> IsActive
+        {
+            get
+            {
+                return this.IsActiveField;
+            }
+            set
+            {
+                this.IsActiveField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public SampleTypeThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcs
+        {
+            get
+            {
+                return this.SampleThinhLcsField;
+            }
+            set
+            {
+                this.SampleThinhLcsField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> SampleTypeThinhLcid
+        {
+            get
+            {
+                return this.SampleTypeThinhLcidField;
+            }
+            set
+            {
+                this.SampleTypeThinhLcidField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TypeName
+        {
+            get
+            {
+                return this.TypeNameField;
+            }
+            set
+            {
+                this.TypeNameField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> UpdatedAt
+        {
+            get
+            {
+                return this.UpdatedAtField;
+            }
+            set
+            {
+                this.UpdatedAtField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SampleThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class SampleThinhLc : object
     {
         
-        private SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm AppointmentsTienDmField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm AppointmentsTienDmField;
         
         private System.Nullable<int> AppointmentsTienDmidField;
         
@@ -35,20 +178,20 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private string NotesField;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcField;
         
         private System.Nullable<int> ProfileThinhLcidField;
         
         private System.Nullable<int> SampleThinhLcidField;
         
-        private SampleThinhLCSoapWCFServiceReference.SampleTypeThinhLc SampleTypeThinhLcField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc SampleTypeThinhLcField;
         
         private System.Nullable<int> SampleTypeThinhLcidField;
         
         private System.Nullable<System.DateTime> UpdatedAtField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm AppointmentsTienDm
+        public SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm AppointmentsTienDm
         {
             get
             {
@@ -152,7 +295,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLc
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLc
         {
             get
             {
@@ -191,7 +334,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SampleTypeThinhLc SampleTypeThinhLc
+        public SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc SampleTypeThinhLc
         {
             get
             {
@@ -232,8 +375,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AppointmentsTienDm", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AppointmentsTienDm", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class AppointmentsTienDm : object
     {
         
@@ -241,7 +384,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.DateTime AppointmentDateField;
         
-        private SampleThinhLCSoapWCFServiceReference.AppointmentStatusesTienDm AppointmentStatusesTienDmField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AppointmentStatusesTienDm AppointmentStatusesTienDmField;
         
         private int AppointmentStatusesTienDmidField;
         
@@ -259,17 +402,17 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private string NotesField;
         
-        private SampleThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcsField;
         
         private string SamplingMethodField;
         
-        private SampleThinhLCSoapWCFServiceReference.ServicesNhanVt ServicesNhanVtField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ServicesNhanVt ServicesNhanVtField;
         
         private int ServicesNhanVtidField;
         
         private decimal TotalAmountField;
         
-        private SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
         
         private int UserAccountIdField;
         
@@ -300,7 +443,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AppointmentStatusesTienDm AppointmentStatusesTienDm
+        public SampleTypeThinhLCSoapWCFServiceReference.AppointmentStatusesTienDm AppointmentStatusesTienDm
         {
             get
             {
@@ -417,7 +560,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcs
+        public SampleTypeThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcs
         {
             get
             {
@@ -443,7 +586,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ServicesNhanVt ServicesNhanVt
+        public SampleTypeThinhLCSoapWCFServiceReference.ServicesNhanVt ServicesNhanVt
         {
             get
             {
@@ -482,7 +625,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
+        public SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
         {
             get
             {
@@ -510,12 +653,12 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ProfileThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ProfileThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class ProfileThinhLc : object
     {
         
-        private SampleThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNtsField;
         
         private System.Nullable<int> CountField;
         
@@ -535,22 +678,22 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private string NotesField;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid1NavigationsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid1NavigationsField;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid2NavigationsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid2NavigationsField;
         
         private int ProfileThinhLcidField;
         
-        private SampleThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcsField;
         
         private System.DateTime UpdatedAtField;
         
-        private SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
         
         private System.Nullable<int> UserAccountIdField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNts
+        public SampleTypeThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNts
         {
             get
             {
@@ -680,7 +823,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid1Navigations
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid1Navigations
         {
             get
             {
@@ -693,7 +836,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid2Navigations
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileRelationshipThinhLc[] ProfileRelationshipThinhLcProfileThinhLcid2Navigations
         {
             get
             {
@@ -719,7 +862,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcs
+        public SampleTypeThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcs
         {
             get
             {
@@ -745,7 +888,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
+        public SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
         {
             get
             {
@@ -773,157 +916,14 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SampleTypeThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
-    public partial class SampleTypeThinhLc : object
-    {
-        
-        private System.Nullable<int> CountField;
-        
-        private System.Nullable<System.DateTime> CreatedAtField;
-        
-        private System.Nullable<System.DateTime> DeletedAtField;
-        
-        private string DescriptionField;
-        
-        private System.Nullable<bool> IsActiveField;
-        
-        private SampleThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcsField;
-        
-        private System.Nullable<int> SampleTypeThinhLcidField;
-        
-        private string TypeNameField;
-        
-        private System.Nullable<System.DateTime> UpdatedAtField;
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Count
-        {
-            get
-            {
-                return this.CountField;
-            }
-            set
-            {
-                this.CountField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> CreatedAt
-        {
-            get
-            {
-                return this.CreatedAtField;
-            }
-            set
-            {
-                this.CreatedAtField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> DeletedAt
-        {
-            get
-            {
-                return this.DeletedAtField;
-            }
-            set
-            {
-                this.DeletedAtField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Description
-        {
-            get
-            {
-                return this.DescriptionField;
-            }
-            set
-            {
-                this.DescriptionField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<bool> IsActive
-        {
-            get
-            {
-                return this.IsActiveField;
-            }
-            set
-            {
-                this.IsActiveField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SampleThinhLc[] SampleThinhLcs
-        {
-            get
-            {
-                return this.SampleThinhLcsField;
-            }
-            set
-            {
-                this.SampleThinhLcsField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> SampleTypeThinhLcid
-        {
-            get
-            {
-                return this.SampleTypeThinhLcidField;
-            }
-            set
-            {
-                this.SampleTypeThinhLcidField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string TypeName
-        {
-            get
-            {
-                return this.TypeNameField;
-            }
-            set
-            {
-                this.TypeNameField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> UpdatedAt
-        {
-            get
-            {
-                return this.UpdatedAtField;
-            }
-            set
-            {
-                this.UpdatedAtField = value;
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AppointmentStatusesTienDm", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AppointmentStatusesTienDm", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class AppointmentStatusesTienDm : object
     {
         
         private int AppointmentStatusesTienDmidField;
         
-        private SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDmsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDmsField;
         
         private System.Nullable<System.DateTime> CreatedDateField;
         
@@ -947,7 +947,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDms
+        public SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDms
         {
             get
             {
@@ -1014,12 +1014,12 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ServicesNhanVt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ServicesNhanVt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class ServicesNhanVt : object
     {
         
-        private SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDmsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDmsField;
         
         private System.Nullable<System.DateTime> CreatedDateField;
         
@@ -1041,7 +1041,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<int> ProcessingTimeField;
         
-        private SampleThinhLCSoapWCFServiceReference.ServiceCategoriesNhanVt ServiceCategoryNhanVtField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ServiceCategoriesNhanVt ServiceCategoryNhanVtField;
         
         private System.Nullable<int> ServiceCategoryNhanVtidField;
         
@@ -1049,12 +1049,12 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<int> ServicesNhanVtidField;
         
-        private SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
         
         private System.Nullable<int> UserAccountIdField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDms
+        public SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDms
         {
             get
             {
@@ -1197,7 +1197,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ServiceCategoriesNhanVt ServiceCategoryNhanVt
+        public SampleTypeThinhLCSoapWCFServiceReference.ServiceCategoriesNhanVt ServiceCategoryNhanVt
         {
             get
             {
@@ -1249,7 +1249,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
+        public SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
         {
             get
             {
@@ -1277,16 +1277,16 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SystemUserAccount", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SystemUserAccount", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class SystemUserAccount : object
     {
         
         private string ApplicationCodeField;
         
-        private SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDmsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDmsField;
         
-        private SampleThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgsField;
         
         private string CreatedByField;
         
@@ -1304,19 +1304,19 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<System.DateTime> ModifiedDateField;
         
-        private SampleThinhLCSoapWCFServiceReference.OrderGiapHd[] OrderGiapHdsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.OrderGiapHd[] OrderGiapHdsField;
         
         private string PasswordField;
         
         private string PhoneField;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileThinhLc[] ProfileThinhLcsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc[] ProfileThinhLcsField;
         
         private string RequestCodeField;
         
         private System.Nullable<int> RoleIdField;
         
-        private SampleThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVtsField;
         
         private System.Nullable<int> UserAccountIdField;
         
@@ -1336,7 +1336,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDms
+        public SampleTypeThinhLCSoapWCFServiceReference.AppointmentsTienDm[] AppointmentsTienDms
         {
             get
             {
@@ -1349,7 +1349,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgs
+        public SampleTypeThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgs
         {
             get
             {
@@ -1466,7 +1466,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.OrderGiapHd[] OrderGiapHds
+        public SampleTypeThinhLCSoapWCFServiceReference.OrderGiapHd[] OrderGiapHds
         {
             get
             {
@@ -1505,7 +1505,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileThinhLc[] ProfileThinhLcs
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc[] ProfileThinhLcs
         {
             get
             {
@@ -1544,7 +1544,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVts
+        public SampleTypeThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVts
         {
             get
             {
@@ -1585,8 +1585,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ServiceCategoriesNhanVt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ServiceCategoriesNhanVt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class ServiceCategoriesNhanVt : object
     {
         
@@ -1600,7 +1600,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<int> ServiceCategoryNhanVtidField;
         
-        private SampleThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVtsField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string CategoryName
@@ -1668,7 +1668,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVts
+        public SampleTypeThinhLCSoapWCFServiceReference.ServicesNhanVt[] ServicesNhanVts
         {
             get
             {
@@ -1683,12 +1683,12 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="BlogsHuyLhg", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BlogsHuyLhg", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class BlogsHuyLhg : object
     {
         
-        private SampleThinhLCSoapWCFServiceReference.BlogCategoriesHuyLhg BlogCategoryHuyLhgField;
+        private SampleTypeThinhLCSoapWCFServiceReference.BlogCategoriesHuyLhg BlogCategoryHuyLhgField;
         
         private int BlogCategoryHuyLhgidField;
         
@@ -1712,14 +1712,14 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private string TitleField;
         
-        private SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserField;
         
         private int UserIdField;
         
         private int ViewCountField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.BlogCategoriesHuyLhg BlogCategoryHuyLhg
+        public SampleTypeThinhLCSoapWCFServiceReference.BlogCategoriesHuyLhg BlogCategoryHuyLhg
         {
             get
             {
@@ -1875,7 +1875,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SystemUserAccount User
+        public SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount User
         {
             get
             {
@@ -1916,8 +1916,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="OrderGiapHd", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="OrderGiapHd", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class OrderGiapHd : object
     {
         
@@ -1959,9 +1959,9 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private long TotalAmountField;
         
-        private SampleThinhLCSoapWCFServiceReference.TransactionsGiapHd[] TransactionsGiapHdsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.TransactionsGiapHd[] TransactionsGiapHdsField;
         
-        private SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
+        private SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccountField;
         
         private int UserAccountIdField;
         
@@ -2213,7 +2213,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.TransactionsGiapHd[] TransactionsGiapHds
+        public SampleTypeThinhLCSoapWCFServiceReference.TransactionsGiapHd[] TransactionsGiapHds
         {
             get
             {
@@ -2226,7 +2226,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
+        public SampleTypeThinhLCSoapWCFServiceReference.SystemUserAccount UserAccount
         {
             get
             {
@@ -2254,14 +2254,14 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="BlogCategoriesHuyLhg", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BlogCategoriesHuyLhg", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class BlogCategoriesHuyLhg : object
     {
         
         private int BlogCategoryHuyLhgidField;
         
-        private SampleThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgsField;
         
         private string CategoryNameField;
         
@@ -2285,7 +2285,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgs
+        public SampleTypeThinhLCSoapWCFServiceReference.BlogsHuyLhg[] BlogsHuyLhgs
         {
             get
             {
@@ -2352,8 +2352,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="TransactionsGiapHd", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TransactionsGiapHd", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class TransactionsGiapHd : object
     {
         
@@ -2367,7 +2367,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<bool> IsRefundField;
         
-        private SampleThinhLCSoapWCFServiceReference.OrderGiapHd OrderGiapHdField;
+        private SampleTypeThinhLCSoapWCFServiceReference.OrderGiapHd OrderGiapHdField;
         
         private System.Nullable<int> OrderGiapHdidField;
         
@@ -2447,7 +2447,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.OrderGiapHd OrderGiapHd
+        public SampleTypeThinhLCSoapWCFServiceReference.OrderGiapHd OrderGiapHd
         {
             get
             {
@@ -2540,8 +2540,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AlleleResultsPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AlleleResultsPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class AlleleResultsPhienNt : object
     {
         
@@ -2555,19 +2555,19 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<bool> IsOutlierField;
         
-        private SampleThinhLCSoapWCFServiceReference.LociPhienNt LocusField;
+        private SampleTypeThinhLCSoapWCFServiceReference.LociPhienNt LocusField;
         
         private int LocusIdField;
         
         private int PhienNtidField;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcField;
         
         private int ProfileThinhLcidField;
         
         private string RoleField;
         
-        private SampleThinhLCSoapWCFServiceReference.DnaTestsPhienNt TestField;
+        private SampleTypeThinhLCSoapWCFServiceReference.DnaTestsPhienNt TestField;
         
         private int TestIdField;
         
@@ -2639,7 +2639,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.LociPhienNt Locus
+        public SampleTypeThinhLCSoapWCFServiceReference.LociPhienNt Locus
         {
             get
             {
@@ -2678,7 +2678,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLc
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLc
         {
             get
             {
@@ -2717,7 +2717,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.DnaTestsPhienNt Test
+        public SampleTypeThinhLCSoapWCFServiceReference.DnaTestsPhienNt Test
         {
             get
             {
@@ -2758,8 +2758,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ProfileRelationshipThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ProfileRelationshipThinhLc", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class ProfileRelationshipThinhLc : object
     {
         
@@ -2777,11 +2777,11 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private int ProfileThinhLcid1Field;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid1NavigationField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid1NavigationField;
         
         private int ProfileThinhLcid2Field;
         
-        private SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid2NavigationField;
+        private SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid2NavigationField;
         
         private string RelationshipTypeField;
         
@@ -2879,7 +2879,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid1Navigation
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid1Navigation
         {
             get
             {
@@ -2905,7 +2905,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid2Navigation
+        public SampleTypeThinhLCSoapWCFServiceReference.ProfileThinhLc ProfileThinhLcid2Navigation
         {
             get
             {
@@ -2946,12 +2946,12 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="LociPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="LociPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class LociPhienNt : object
     {
         
-        private SampleThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNtsField;
         
         private System.Nullable<System.DateTime> CreatedAtField;
         
@@ -2959,7 +2959,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<bool> IsCodisField;
         
-        private SampleThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNtsField;
         
         private System.Nullable<decimal> MutationRateField;
         
@@ -2968,7 +2968,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         private int PhienNtidField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNts
+        public SampleTypeThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNts
         {
             get
             {
@@ -3020,7 +3020,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNts
+        public SampleTypeThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNts
         {
             get
             {
@@ -3074,12 +3074,12 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="DnaTestsPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="DnaTestsPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class DnaTestsPhienNt : object
     {
         
-        private SampleThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNtsField;
         
         private string ConclusionField;
         
@@ -3087,7 +3087,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<bool> IsCompletedField;
         
-        private SampleThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNtsField;
+        private SampleTypeThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNtsField;
         
         private int PhienNtidField;
         
@@ -3098,7 +3098,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         private string TestTypeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNts
+        public SampleTypeThinhLCSoapWCFServiceReference.AlleleResultsPhienNt[] AlleleResultsPhienNts
         {
             get
             {
@@ -3150,7 +3150,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNts
+        public SampleTypeThinhLCSoapWCFServiceReference.LocusMatchResultsPhienNt[] LocusMatchResultsPhienNts
         {
             get
             {
@@ -3217,8 +3217,8 @@ namespace SampleThinhLCSoapWCFServiceReference
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="LocusMatchResultsPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.SoapAPIServices.ThinhLC." +
-        "SoapModels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="LocusMatchResultsPhienNt", Namespace="http://schemas.datacontract.org/2004/07/DNATestingSystem.Repository.ThinhLC.Model" +
+        "s")]
     public partial class LocusMatchResultsPhienNt : object
     {
         
@@ -3228,7 +3228,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private System.Nullable<bool> IsMatchField;
         
-        private SampleThinhLCSoapWCFServiceReference.LociPhienNt LocusField;
+        private SampleTypeThinhLCSoapWCFServiceReference.LociPhienNt LocusField;
         
         private int LocusIdField;
         
@@ -3236,7 +3236,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private int PhienNtidField;
         
-        private SampleThinhLCSoapWCFServiceReference.DnaTestsPhienNt TestField;
+        private SampleTypeThinhLCSoapWCFServiceReference.DnaTestsPhienNt TestField;
         
         private int TestIdField;
         
@@ -3280,7 +3280,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.LociPhienNt Locus
+        public SampleTypeThinhLCSoapWCFServiceReference.LociPhienNt Locus
         {
             get
             {
@@ -3332,7 +3332,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SampleThinhLCSoapWCFServiceReference.DnaTestsPhienNt Test
+        public SampleTypeThinhLCSoapWCFServiceReference.DnaTestsPhienNt Test
         {
             get
             {
@@ -3359,34 +3359,35 @@ namespace SampleThinhLCSoapWCFServiceReference
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SampleThinhLCSoapWCFServiceReference.ISampleThinhLCSoapService")]
-    public interface ISampleThinhLCSoapService
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SampleTypeThinhLCSoapWCFServiceReference.ISampleTypeThinhLCSoapService")]
+    public interface ISampleTypeThinhLCSoapService
     {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleThinhLCSoapService/GetSampleThinhLCs", ReplyAction="http://tempuri.org/ISampleThinhLCSoapService/GetSampleThinhLCsResponse")]
-        System.Threading.Tasks.Task<SampleThinhLCSoapWCFServiceReference.SampleThinhLc[]> GetSampleThinhLCsAsync();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleTypeThinhLCSoapService/GetSampleTypeThinhLCs", ReplyAction="http://tempuri.org/ISampleTypeThinhLCSoapService/GetSampleTypeThinhLCsResponse")]
+        System.Threading.Tasks.Task<SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc[]> GetSampleTypeThinhLCsAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleThinhLCSoapService/GetSampleThinhLCById", ReplyAction="http://tempuri.org/ISampleThinhLCSoapService/GetSampleThinhLCByIdResponse")]
-        System.Threading.Tasks.Task<SampleThinhLCSoapWCFServiceReference.SampleThinhLc> GetSampleThinhLCByIdAsync(int id);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleTypeThinhLCSoapService/GetSampleTypeThinhLCById", ReplyAction="http://tempuri.org/ISampleTypeThinhLCSoapService/GetSampleTypeThinhLCByIdResponse" +
+            "")]
+        System.Threading.Tasks.Task<SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc> GetSampleTypeThinhLCByIdAsync(int id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleThinhLCSoapService/CreateSampleThinhLC", ReplyAction="http://tempuri.org/ISampleThinhLCSoapService/CreateSampleThinhLCResponse")]
-        System.Threading.Tasks.Task<int> CreateSampleThinhLCAsync(SampleThinhLCSoapWCFServiceReference.SampleThinhLc sample);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleTypeThinhLCSoapService/CreateSampleTypeThinhLC", ReplyAction="http://tempuri.org/ISampleTypeThinhLCSoapService/CreateSampleTypeThinhLCResponse")]
+        System.Threading.Tasks.Task<int> CreateSampleTypeThinhLCAsync(SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc sampleType);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleThinhLCSoapService/UpdateSampleThinhLC", ReplyAction="http://tempuri.org/ISampleThinhLCSoapService/UpdateSampleThinhLCResponse")]
-        System.Threading.Tasks.Task<int> UpdateSampleThinhLCAsync(SampleThinhLCSoapWCFServiceReference.SampleThinhLc sample);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleTypeThinhLCSoapService/UpdateSampleTypeThinhLC", ReplyAction="http://tempuri.org/ISampleTypeThinhLCSoapService/UpdateSampleTypeThinhLCResponse")]
+        System.Threading.Tasks.Task<int> UpdateSampleTypeThinhLCAsync(SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc sampleType);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleThinhLCSoapService/DeleteSampleThinhLC", ReplyAction="http://tempuri.org/ISampleThinhLCSoapService/DeleteSampleThinhLCResponse")]
-        System.Threading.Tasks.Task<int> DeleteSampleThinhLCAsync(int id);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISampleTypeThinhLCSoapService/DeleteSampleTypeThinhLC", ReplyAction="http://tempuri.org/ISampleTypeThinhLCSoapService/DeleteSampleTypeThinhLCResponse")]
+        System.Threading.Tasks.Task<bool> DeleteSampleTypeThinhLCAsync(int id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    public interface ISampleThinhLCSoapServiceChannel : SampleThinhLCSoapWCFServiceReference.ISampleThinhLCSoapService, System.ServiceModel.IClientChannel
+    public interface ISampleTypeThinhLCSoapServiceChannel : SampleTypeThinhLCSoapWCFServiceReference.ISampleTypeThinhLCSoapService, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "8.0.0")]
-    public partial class SampleThinhLCSoapServiceClient : System.ServiceModel.ClientBase<SampleThinhLCSoapWCFServiceReference.ISampleThinhLCSoapService>, SampleThinhLCSoapWCFServiceReference.ISampleThinhLCSoapService
+    public partial class SampleTypeThinhLCSoapServiceClient : System.ServiceModel.ClientBase<SampleTypeThinhLCSoapWCFServiceReference.ISampleTypeThinhLCSoapService>, SampleTypeThinhLCSoapWCFServiceReference.ISampleTypeThinhLCSoapService
     {
         
         /// <summary>
@@ -3396,62 +3397,62 @@ namespace SampleThinhLCSoapWCFServiceReference
         /// <param name="clientCredentials">The client credentials</param>
         static partial void ConfigureEndpoint(System.ServiceModel.Description.ServiceEndpoint serviceEndpoint, System.ServiceModel.Description.ClientCredentials clientCredentials);
         
-        public SampleThinhLCSoapServiceClient() : 
-                base(SampleThinhLCSoapServiceClient.GetDefaultBinding(), SampleThinhLCSoapServiceClient.GetDefaultEndpointAddress())
+        public SampleTypeThinhLCSoapServiceClient() : 
+                base(SampleTypeThinhLCSoapServiceClient.GetDefaultBinding(), SampleTypeThinhLCSoapServiceClient.GetDefaultEndpointAddress())
         {
-            this.Endpoint.Name = EndpointConfiguration.BasicHttpBinding_ISampleThinhLCSoapService.ToString();
+            this.Endpoint.Name = EndpointConfiguration.BasicHttpBinding_ISampleTypeThinhLCSoapService.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public SampleThinhLCSoapServiceClient(EndpointConfiguration endpointConfiguration) : 
-                base(SampleThinhLCSoapServiceClient.GetBindingForEndpoint(endpointConfiguration), SampleThinhLCSoapServiceClient.GetEndpointAddress(endpointConfiguration))
-        {
-            this.Endpoint.Name = endpointConfiguration.ToString();
-            ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
-        }
-        
-        public SampleThinhLCSoapServiceClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
-                base(SampleThinhLCSoapServiceClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
+        public SampleTypeThinhLCSoapServiceClient(EndpointConfiguration endpointConfiguration) : 
+                base(SampleTypeThinhLCSoapServiceClient.GetBindingForEndpoint(endpointConfiguration), SampleTypeThinhLCSoapServiceClient.GetEndpointAddress(endpointConfiguration))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public SampleThinhLCSoapServiceClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(SampleThinhLCSoapServiceClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
+        public SampleTypeThinhLCSoapServiceClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
+                base(SampleTypeThinhLCSoapServiceClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public SampleThinhLCSoapServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public SampleTypeThinhLCSoapServiceClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(SampleTypeThinhLCSoapServiceClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
+        {
+            this.Endpoint.Name = endpointConfiguration.ToString();
+            ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
+        }
+        
+        public SampleTypeThinhLCSoapServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
         }
         
-        public System.Threading.Tasks.Task<SampleThinhLCSoapWCFServiceReference.SampleThinhLc[]> GetSampleThinhLCsAsync()
+        public System.Threading.Tasks.Task<SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc[]> GetSampleTypeThinhLCsAsync()
         {
-            return base.Channel.GetSampleThinhLCsAsync();
+            return base.Channel.GetSampleTypeThinhLCsAsync();
         }
         
-        public System.Threading.Tasks.Task<SampleThinhLCSoapWCFServiceReference.SampleThinhLc> GetSampleThinhLCByIdAsync(int id)
+        public System.Threading.Tasks.Task<SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc> GetSampleTypeThinhLCByIdAsync(int id)
         {
-            return base.Channel.GetSampleThinhLCByIdAsync(id);
+            return base.Channel.GetSampleTypeThinhLCByIdAsync(id);
         }
         
-        public System.Threading.Tasks.Task<int> CreateSampleThinhLCAsync(SampleThinhLCSoapWCFServiceReference.SampleThinhLc sample)
+        public System.Threading.Tasks.Task<int> CreateSampleTypeThinhLCAsync(SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc sampleType)
         {
-            return base.Channel.CreateSampleThinhLCAsync(sample);
+            return base.Channel.CreateSampleTypeThinhLCAsync(sampleType);
         }
         
-        public System.Threading.Tasks.Task<int> UpdateSampleThinhLCAsync(SampleThinhLCSoapWCFServiceReference.SampleThinhLc sample)
+        public System.Threading.Tasks.Task<int> UpdateSampleTypeThinhLCAsync(SampleTypeThinhLCSoapWCFServiceReference.SampleTypeThinhLc sampleType)
         {
-            return base.Channel.UpdateSampleThinhLCAsync(sample);
+            return base.Channel.UpdateSampleTypeThinhLCAsync(sampleType);
         }
         
-        public System.Threading.Tasks.Task<int> DeleteSampleThinhLCAsync(int id)
+        public System.Threading.Tasks.Task<bool> DeleteSampleTypeThinhLCAsync(int id)
         {
-            return base.Channel.DeleteSampleThinhLCAsync(id);
+            return base.Channel.DeleteSampleTypeThinhLCAsync(id);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
@@ -3468,7 +3469,7 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_ISampleThinhLCSoapService))
+            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_ISampleTypeThinhLCSoapService))
             {
                 System.ServiceModel.BasicHttpBinding result = new System.ServiceModel.BasicHttpBinding();
                 result.MaxBufferSize = int.MaxValue;
@@ -3483,27 +3484,27 @@ namespace SampleThinhLCSoapWCFServiceReference
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_ISampleThinhLCSoapService))
+            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_ISampleTypeThinhLCSoapService))
             {
-                return new System.ServiceModel.EndpointAddress("https://localhost:7077/SampleThinhLCSoapService.asmx");
+                return new System.ServiceModel.EndpointAddress("https://localhost:7077/SampleTypeThinhLCSoapService.asmx");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
         
         private static System.ServiceModel.Channels.Binding GetDefaultBinding()
         {
-            return SampleThinhLCSoapServiceClient.GetBindingForEndpoint(EndpointConfiguration.BasicHttpBinding_ISampleThinhLCSoapService);
+            return SampleTypeThinhLCSoapServiceClient.GetBindingForEndpoint(EndpointConfiguration.BasicHttpBinding_ISampleTypeThinhLCSoapService);
         }
         
         private static System.ServiceModel.EndpointAddress GetDefaultEndpointAddress()
         {
-            return SampleThinhLCSoapServiceClient.GetEndpointAddress(EndpointConfiguration.BasicHttpBinding_ISampleThinhLCSoapService);
+            return SampleTypeThinhLCSoapServiceClient.GetEndpointAddress(EndpointConfiguration.BasicHttpBinding_ISampleTypeThinhLCSoapService);
         }
         
         public enum EndpointConfiguration
         {
             
-            BasicHttpBinding_ISampleThinhLCSoapService,
+            BasicHttpBinding_ISampleTypeThinhLCSoapService,
         }
     }
 }
